@@ -18,4 +18,7 @@ def subtraction():
     result = first_num - second_num
     print(f"{first_num} - {second_num} = {result}")
 
+def multiplication():
+    first_num
+
 calculator()
