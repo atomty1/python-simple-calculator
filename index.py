@@ -9,6 +9,12 @@ def calculator():
         multiplication()
     elif(user_operation == "4"):
         division()
+    print("Do you want to perform another calculation?")
+    perform_more = input("1. Yes 2. No :")
+    if(perform_more == "1"):
+        calculator()
+    else:
+        print("BYE!!!")
 
 def addition():
     first_num = float(input("Enter the first number: "))
